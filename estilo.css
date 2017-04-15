@@ -1,0 +1,57 @@
+/* Estilos exclusivos para pagina de capa */
+
+#capa {
+  margin: 3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#capa > section {
+  padding-bottom: 1em;
+}
+
+#instituicao {
+
+}
+
+#nomes {
+
+}
+
+#titulo {
+  padding-bottom: 0 !important;
+  
+}
+
+#subtitulo {
+  text-transform: none;
+}
+
+#local {
+  text-transform: none;
+  padding-bottom: 0 !important;
+}
+
+#ano {
+  
+}
+
+@media screen {
+  #capa {
+    border: 1px solid gray;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+@media print {
+  #capa {
+    color: red; /* Estilo de teste */
+  }
+}
+
+/* Estilos genricos para todas as paginas */
+
+.pagina {
+
+}
