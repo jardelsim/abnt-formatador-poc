@@ -24,9 +24,9 @@ body {
 }
 .pagina-areautil {
   padding: 1cm 0 0 1cm;
-  border: 5px red solid;
+  /*border: 5px red solid;*/
   height: 257mm;
-  outline: 2cm #FFEAEA solid;
+  /*outline: 2cm #FFEAEA solid;*/
   position: relative;
 }
 
@@ -101,20 +101,6 @@ body {
 
 #ano {
   
-}
-
-@media screen {
-  #capa {
-    border: 1px solid gray;
-    max-width: 960px;
-    margin: 0 auto;
-  }
-}
-
-@media print {
-  #capa {
-    color: red; /* Estilo de teste */
-  }
 }
 
 /* Estilos genricos para todas as paginas */
